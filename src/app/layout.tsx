@@ -1,4 +1,10 @@
-import './globals.css';
+// src/app/layout.tsx
+
+// BARIS INI HARUS DIUBAH!
+import '../globals.css'; 
+// Harap pastikan Anda menggunakan '../globals.css'
+// Jika menggunakan jalur alias '@/', maka gunakan '@/globals.css'
+
 import { Inter } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'] });
